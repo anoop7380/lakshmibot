@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: lakshmibot
+    runtime: python
+    env: python
+    buildCommand: ""
+    startCommand: bash start.sh
+    pythonVersion: 3.11.8
+    autoDeploy: true
